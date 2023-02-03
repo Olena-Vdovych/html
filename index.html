@@ -12,15 +12,15 @@
     <header>
         <nav>
             <div class="bgimg">
-                <img width="1510" height="620" src="img/windmill.jpg" alt="Windmill">
+                <img width="1510" height="650" src="img/windmill.jpg" alt="Windmill">
             </div>
             <div class="menu">
                 <img width="65" src="img/logo.png" alt="Logo">
                 <h1 class="name">Your tour guide to the Netherlands</h1>
                 <div class="topnav">
                         <a href="#" class="topnav_link">Home</a>
-                        <a href="#" class="topnav_link">About</a>
-                        <a href="#" class="topnav_link">Travel tips</a>
+                        <a href="#about" class="topnav_link">About</a>
+                        <a href="#tips" class="topnav_link">Travel tips</a>
                         <div class="destinations">
                             <a href="#" class="topnav_link">Destinations</a>
                                 <a href="#" class="dest_link">Amsterdam</a>
@@ -28,13 +28,13 @@
                                 <a href="#" class="dest_link">Leiden</a>
                                 <a href="#" class="dest_link">North sea</a>
                         </div>
-                    <a href="#" class="topnav_link">Contact me</a>
+                    <a href="#contacts" class="topnav_link">Contact me</a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="section_about">
+        <section class="section_about" id="about">
             <div class="container">
                 <div class="about_header">
                     <h2 class="about_title">About me</h2>
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </section>
-        <section class="section_tips">
+        <section class="section_tips" id="tips">
             <div class="container">
                 <div class="tips_header">
                     <h2 class="tips_title">7 Essential Netherlands Travel Tips</h2>
@@ -116,9 +116,61 @@
                 </div>
             </div>
         </section>
+        <section class="contacts" id="contacts">
+            <h2>Contact me</h2>
+            <form action="#" method="post">
+                <div class="name">
+                    <label for="name">
+                        <span>Name: </span>
+                        <strong><abbr title="required"></abbr>*</strong>
+                    </label>
+                    <input type="text" name="username" id="name">
+                </div>
+                <div class="email">
+                    <label for="email">
+                        <span>Email: </span>
+                        <strong><abbr title="required"></abbr>*</strong>
+                    </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="phone">
+                    <label for="phone">
+                        <span>Phone number: </span>
+                        <strong><abbr title="required"></abbr>*</strong>
+                    </label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div class="places">
+                    <fieldset>
+                        <legend>Choose your favorite place</legend>
+                        <input type="radio" name="city" id="amsterdam">
+                        <label for="amsterdam">Amsterdam</label>
+                        <input type="radio" name="city" id="hague">
+                        <label for="hague">Hague</label>
+                        <input type="radio" name="city" id="leiden">
+                        <label for="leiden">Leiden</label>
+                        <input type="radio" name="city" id="sea">
+                        <label for="sea">North sea</label>
+                    </fieldset>
+                </div>
+                <div class="text">
+                    <input type="text" name="text" id="text" placeholder="Write your message here"> 
+                </div>
+                <div class="button">
+                    <button type="submit">Send your message</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
-
+        <div class="footer">
+            <img width="35" src="img/logo.png" alt="Logo">
+            <h5 class="contact_information">You can contact with me</h5>
+            <a href="tel:">+380631599121</a>
+            <a href="mailto:">olenatravel@gmail.com</a>
+            <a href="http://www.instagram.com" target="_blank"><img width="35" height="25" src="img/instagram_icon.png" alt="instagram-icon"></a>
+            <a href="http://uk-ua.facebook.com" target="_blank"><img width="25" height="25" src="img/facebook-icon.webp" alt="facebook-icon"></a>
+        </div>
     </footer>
 </body>
 </html>
