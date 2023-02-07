@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --text-color: #614e44;
+    --h1-color: #FFFFFF;
+    --h2-color: #261d17;
+}
+
+h1 {
+    color: var(--h1-color);
+    font-family: 'Itim', cursive;
+}
+
+h2 {
+    color: var(--h2-color);
+    font-family: 'Itim', cursive;
+}
