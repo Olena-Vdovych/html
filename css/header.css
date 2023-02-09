@@ -1,6 +1,51 @@
-nav {
+.logo {
+    width: 65px;
+}
+
+header {
     background-image: url(/img/windmill.jpg);
-    width: 1550px;
-    height: 650px;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 1518px;
+    height: 550px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo__text {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.name {
+    color: var(--h1-color);
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+
+.topnav {
+    display: inline-flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.topnav__link {
+    padding: 0 10px 0 10px;
+}
+
+.tour__guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.tour__guide_text {
+    color: var(--h1-color);
+    font-size: 35px;
 }

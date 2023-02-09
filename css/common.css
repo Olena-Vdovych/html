@@ -11,14 +11,29 @@
     --text-color: #614e44;
     --h1-color: #FFFFFF;
     --h2-color: #261d17;
+    --h3-color: #37291f;
 }
 
 h1 {
     color: var(--h1-color);
     font-family: 'Itim', cursive;
+    font-size: 50px;
 }
 
 h2 {
     color: var(--h2-color);
     font-family: 'Itim', cursive;
+    font-size: 30px;
+}
+
+h3 {
+    color: var(--h3-color);
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+}
+
+p {
+    color: var(--text-color);
+    font-family: 'Itim', cursive;
+    font-size: 20px;
 }
