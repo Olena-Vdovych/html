@@ -3,7 +3,8 @@
 }
 
 header {
-    background-image: url(/img/windmill.jpg);
+    background-image:  linear-gradient(rgba(89, 0, 255, 0.504), rgba(57, 188, 40, 0.778)), 
+    url("../../img/windmill.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 1518px;
@@ -21,7 +22,7 @@ header {
     margin-top: 20px;
 }
 
-.name {
+.title {
     color: var(--h1-color);
     font-family: 'Itim', cursive;
     font-size: 20px;
@@ -31,10 +32,17 @@ header {
     display: inline-flex;
     font-size: 20px;
     margin-top: 20px;
+    font-family: 'Itim', cursive;
 }
 
 .topnav__link {
     padding: 0 10px 0 10px;
+    color: var(--h1-color);
+}
+
+.topnav__link:hover {
+    color: rgb(38, 240, 11);
+    font-size: 23px;
 }
 
 .tour__guide {
@@ -48,4 +56,15 @@ header {
 .tour__guide_text {
     color: var(--h1-color);
     font-size: 35px;
+}
+
+.contacts, .text, button {
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
 }
