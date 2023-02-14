@@ -5,7 +5,7 @@
 
 header {
     background-image:  linear-gradient(rgba(89, 0, 255, 0.504), rgba(57, 188, 40, 0.778)), 
-    url("../../img/windmill.jpg");
+    url("../img/windmill.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
