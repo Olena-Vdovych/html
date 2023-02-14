@@ -1,0 +1,18 @@
+.contacts {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.contacts__form {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(88,253,45,1) 100%);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
