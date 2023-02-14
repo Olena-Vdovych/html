@@ -1,0 +1,35 @@
+.section__tips {
+    margin-top: 5px;
+}
+
+.tips__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tips__header_title {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.tips__header_text {
+    font-size: 12px;
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tips__number {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.tips__text {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
