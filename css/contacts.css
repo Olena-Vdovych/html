@@ -5,14 +5,40 @@
     text-align: center;
     align-items: center;
     width: 100%;
-    
 }
 
 .contacts__form {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(88,253,45,1) 100%);
+    background: var(--contacts-form-background);
+    background: var(--contacts-form-linear-background);
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+}
+
+.contacts__title {
+    font-size: 15px;
+}
+
+.name, .email, .phone, .places, .textarea__message, .button__form {
+    font-size: 12px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.name input, .email input, .phone input {
+    border-radius: 10px;
+}
+
+.button__form {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: var(--button-form-color);
+    cursor: pointer;
+}
+
+.button__form:hover {
+    background-color: var(--button-form-hover);
 }
