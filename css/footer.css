@@ -14,4 +14,5 @@
 .footer__social_instagram, .footer__social_facebook {
     width: 25px;
     height: 25px;
+    margin-top: 5px;
 }

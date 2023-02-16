@@ -26,6 +26,8 @@
     font-size: 12px;
     padding-bottom: 5px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .name input, .email input, .phone input {
@@ -34,6 +36,7 @@
 
 .button__form {
     border-radius: 10px;
+    margin-top: 5px;
     padding: 5px;
     background-color: var(--button-form-color);
     cursor: pointer;
