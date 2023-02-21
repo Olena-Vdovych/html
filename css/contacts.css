@@ -45,3 +45,13 @@
 .button__form:hover {
     background-color: var(--button-form-hover);
 }
+
+@media (min-width: 481px) {
+    .contacts__title {
+        font-size: 17px;
+    }
+
+    .name, .email, .phone, .places, .textarea__message, .button__form {
+        font-size: 15px;
+    }
+}
