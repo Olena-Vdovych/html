@@ -16,3 +16,16 @@
     height: 25px;
     margin-top: 5px;
 }
+
+@media (min-width: 376px) {
+    .footer {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin: 0 50px;
+    }
+}
