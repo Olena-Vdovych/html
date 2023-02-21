@@ -27,7 +27,7 @@ header {
 
 .logo__text {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
@@ -40,10 +40,10 @@ header {
 
 .topnav {
     display: inline-flex;
-    font-size: 6px;
+    font-size: 9px;
     margin-top: 15px;
     font-family: 'Itim', cursive;
-    align-items: baseline;
+    align-items: center;
 }
 
 .topnav__link {
