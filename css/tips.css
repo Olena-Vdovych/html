@@ -33,3 +33,21 @@
     font-size: 12px;
     margin-bottom: 5px;
 }
+
+@media (min-width: 481px) {
+    .tips__header_title {
+        font-size: 20px;
+    }
+
+    .tips__header_text {
+        font-size: 15px;
+    }
+
+    .tips__number {
+        font-size: 18px;
+    }
+
+    .tips__text {
+        font-size: 15px;
+    }
+}
