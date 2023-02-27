@@ -1,0 +1,54 @@
+.slider_amsterdam, .slider_hague, .slider_leiden, .slider_sea {
+    position: relative;
+}
+
+.item_amsterdam, .item_hague, .item_leiden, .item_sea {
+    width: 100%;
+    object-fit: cover;
+    height: 222px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-content-color);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content:hover {
+    background-color: var(--background-content-hover);
+}
+
+h5.title {
+    font-size: 8px;
+    text-decoration: underline;
+}
+
+p.text {
+    color: var(--h1-color);
+    font-size: 8px;
+}
+
+.btn_prev_amsterdam, .btn_prev_hague, .btn_prev_leiden, .btn_prev_sea, .btn_next_amsterdam, .btn_next_hague, .btn_next_leiden, .btn_next_sea {
+    width: 24px;
+    height: 24px;
+    background-color: var(--light-title-color);
+    color: var(--dark-title-color);
+    opacity: 0.85;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    border: none;
+}
+
+.btn_prev_amsterdam, .btn_prev_hague, .btn_prev_leiden, .btn_prev_sea {
+    left: 0;
+}
+
+.btn_next_amsterdam, .btn_next_hague, .btn_next_leiden, .btn_next_sea {
+    right: 0;
+}

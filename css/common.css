@@ -16,6 +16,8 @@
     --contacts-form-linear-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(88,253,45,1) 100%);
     --button-form-color: rgb(71, 231, 62);
     --button-form-hover: rgba(21, 194, 185, 0.81);
+    --background-content-color: rgb(224, 255, 255, 0.3);
+    --background-content-hover: rgba(32, 24, 6, 0.3);
 }
 
 .container {
