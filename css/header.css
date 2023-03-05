@@ -96,3 +96,18 @@ header {
         font-size: 19px;
     }
 }
+
+@media (min-width: 900px) {
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .topnav {
+        font-size: 14px;
+    }
+}
