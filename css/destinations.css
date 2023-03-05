@@ -2,12 +2,12 @@
     padding: 0 10px;
 }
 
-.amsterdam_title, .hague_title, .leiden_title, .sea_title {
-    text-align: center;
+.slider {
+    position: relative;
 }
 
-.slider_amsterdam, .slider_hague, .slider_leiden, .slider_sea {
-    position: relative;
+.amsterdam_title, .hague_title, .leiden_title, .sea_title {
+    text-align: center;
 }
 
 .item_amsterdam, .item_hague, .item_leiden, .item_sea {
@@ -41,15 +41,22 @@ p.text {
     font-size: 8px;
 }
 
+.slider_buttons {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .btn_prev_amsterdam, .btn_prev_hague, .btn_prev_leiden, .btn_prev_sea, .btn_next_amsterdam, .btn_next_hague, .btn_next_leiden, .btn_next_sea {
     width: 24px;
     height: 24px;
-    background-color: var(--light-title-color);
     color: var(--dark-title-color);
-    opacity: 0.85;
+    opacity: 0.5;
     border-radius: 50%;
-    z-index: 1;
-    position: absolute;
     border: none;
 }
 
@@ -59,4 +66,58 @@ p.text {
 
 .btn_next_amsterdam, .btn_next_hague, .btn_next_leiden, .btn_next_sea {
     right: 0;
+}
+
+@media (min-width: 468px) {
+    .item_amsterdam, .item_hague, .item_leiden, .item_sea {
+        height: 320px;
+    }
+
+    h5.title {
+        font-size: 12px;
+    }
+
+    p.text {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 568px) {
+    .item_amsterdam, .item_hague, .item_leiden, .item_sea {
+        height: 380px;
+    }
+}
+
+@media (min-width: 720px) {
+    .item_amsterdam, .item_hague, .item_leiden, .item_sea {
+        height: 420px;
+    }
+
+    h5.title {
+        font-size: 15px;
+    }
+
+    p.text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 820px) {
+    .item_amsterdam, .item_hague, .item_leiden, .item_sea {
+        height: 460px;
+    }
+}
+
+@media (min-width: 958px) {
+    .item_amsterdam, .item_hague, .item_leiden, .item_sea {
+        height: 500px;
+    }
+
+    h5.title {
+        font-size: 18px;
+    }
+
+    p.text {
+        font-size: 15px;
+    }
 }
