@@ -1,3 +1,11 @@
+.destinations {
+    padding: 0 10px;
+}
+
+.amsterdam_title, .hague_title, .leiden_title, .sea_title {
+    text-align: center;
+}
+
 .slider_amsterdam, .slider_hague, .slider_leiden, .slider_sea {
     position: relative;
 }
